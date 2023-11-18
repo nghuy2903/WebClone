@@ -1,0 +1,231 @@
+.wp-content {
+    z-index: 0;
+}
+
+.homepage-banner {
+    display: flex;
+    justify-content: center;
+}
+
+.slide-banner-homepage a img{
+    max-width: 100%;
+    width: 1525px;
+}
+
+.wp-new-products{
+    width: 1300px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.title-new-product h2{
+    color: rgb(37, 42, 43);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.title-new-product p{
+    color: rgb(101 107 108);
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.list-product{
+    flex-wrap: wrap;
+}
+.product-item{
+    flex-basis: 24%;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    margin: 0px 2px;
+    position: relative;
+}
+.product-item:hover{
+    border: 1px solid #f0efef;
+}
+
+.product-thumb{
+    width: 291px;
+    height: 366px;
+}
+
+.product-item:hover .types-product, .product-item:hover .buy-now, .product-item:hover .new-product-ab {
+    justify-content: center;
+    display: flex;
+}
+.product-item .types-product li:hover img{
+    border: 1px solid #18b21a;
+    cursor: pointer;
+}
+
+.product-name{
+    color: rgb(37, 42, 43);
+    font-size: 14px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+.price{
+    font-size: 14px;
+    color: #000;
+}
+.types-product {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px;
+    display: none;
+}
+.types-product li img{
+    width: 26px;
+    height: 26px;
+    border-radius: 20px;
+    border: 1px solid #b4b0b0;
+    padding: 2px;   
+}
+.buy-now{
+    display: none;
+}
+.buy-now a{
+    background: #000;
+    color: #fff;
+    padding: 10px 26px;
+    margin-top: 6px;
+    display: inline-block;
+}
+.new-product-ab{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border: 1px solid rgb(135, 132, 132);
+    padding: 5px;
+    color: rgb(135, 132, 132);
+    display: none;
+}
+.btn-view-all{
+    padding: 60px 0px;
+}
+.btn-view-all a{
+    color: rgb(37, 42, 43);
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+
+.wp-interest-products{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 80px 0px;
+    width: 1204px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd5d5;
+}
+.title-interest {
+    margin-bottom: 30px;
+    color: rgb(21 24 24);
+    font-size: 20px;
+}
+.wp-interest-products li a img{
+    width: 380px;
+    height: auto;
+}
+
+.list-interest-products{
+    gap: 65px;
+    text-align: center;
+}
+.item-interest-products a{
+    display: block;
+}
+.name{
+    color: rgb(37, 42, 43);
+    margin: 30px;
+    font-size: 15px;
+}
+
+.collection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+.collection h2{
+    margin-top: 30px;
+    color: rgb(21 24 24);
+    font-size: 20px;
+}
+.collection a img{
+    max-width: 100%;
+}
+
+
+.wp-new-products.suggest{
+    position: relative;
+}
+.wp-new-products.suggest .list-product{
+    gap: 9px;
+}
+
+.title-new-product.suggest-title h2{
+    color: #000;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn-prev{
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.btn-next{
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.btn-next, .btn-prev{
+    background: #fff;
+    border: 1px solid #c7c2c2;
+    border-radius: 20px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.instagram{
+    width: 1240px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    border-bottom: 1px solid #dadada;
+
+}
+.instagram ul{
+    display: flex;
+    gap: 35px;
+    margin-bottom: 50px;
+}
+
+.instagram ul li img{
+    width: 290px;
+    height: 290px;
+}
+
+.head-ig{
+    flex-basis: 100%;
+    text-align: center;
+    padding: 35px;
+}
+.head-ig h2{
+    color: rgb(37, 42, 43);
+    font-size: 20px;
+    font-weight: 600;
+}
+.head-ig p{
+    font-size: 18px;
+    padding: 10px 0px;
+}

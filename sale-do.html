@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/reset.css">
+    <link rel="stylesheet" href="public/css/global.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <script src="public/js/jquery.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <title>Juno.vn</title>
+</head>
+
+<body>
+    <div id="app">
+        <div id="wp-header" class="container">
+            <header class="d-flex">
+                <div class="logo-header">
+                    <a href="index.html"><img src="public/image/logo.png" alt=""></a>
+                </div>
+                <menu>
+                    <ul class="menu d-flex">
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">
+                                Hàng mới
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">
+                                Sản phẩm
+                            </a>
+                            <div class="wp-sub-menu">
+                                <div class="sub-menu">
+                                    <ul>
+                                        <li>GIÀY</li>
+                                        <li>Giày cao gót</li>
+                                        <li>Giày xăng đan</li>
+                                        <li>Giày Sneakers</li>
+                                        <li>Giày búp bê</li>
+                                        <li>Dép guốc</li>
+                                    </ul>
+                                    <ul>
+                                        <li>TÚI</li>
+                                        <li>Túi cỡ nhỏ</li>
+                                        <li>Túi cỡ trung</li>
+                                        <li>Balo</li>
+                                        <li>Ví - Clutch</li>
+                                    </ul>
+                                    <ul>
+                                        <li>PHỤ KIỆN</li>
+                                        <li>Mắt kính</li>
+                                        <li>Vớ</li>
+                                    </ul>
+                                    <ul>
+                                        <li>QUẦN ÁO </li>
+                                        <li>Đầm & Jumpsuit</li>
+                                        <li>Áo</li>
+                                        <li>Quần</li>
+                                        <li>Váy</li>
+                                        <li>Khoác</li>
+                                    </ul>
+                                    <ul>
+                                        <li>BỘ SƯU TẬP</li>
+                                        <li>Panorama Diamond</li>
+                                        <li>Panorama City</li>
+                                        <li>Lady Moon</li>
+                                        <li>Feelin Fall</li>
+                                        <li>Take Me To Summer</li>
+                                        <li>Color Your Life</li>
+                                        <li>BST Túi Ngôn Tình</li>
+                                        <li>Versatile Beauty</li>
+                                        <li>Shake It Up</li>
+                                        <li>JoyFul</li>
+                                        <li>Unstoppable New Year</li>
+                                        <li>Sun Moon</li>
+                                    </ul>
+                                </div>
+                                <div class="footer-sub-menu">
+                                    Miễn phí giao hàng toàn quốc với hóa đơn từ 300.000 đồng | Thời gian đổi trả sản
+                                    phẩm lên đến 30 ngày
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <a href="sale-giay.html" class="menu-link">
+                                Siêu sale dưỡng xinh
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="sale-do.html" class="menu-link">
+                                Sale áo quần từ 99K
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">
+                                Showroom
+                            </a>
+                        </li>
+                    </ul>
+                </menu>
+                <div class="wp-form-search">
+                    <input type="text" name="search" id="search" placeholder="Tìm kiếm">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="wp-tools">
+                    <a href="/Juno-clone/login.html">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                    <a href="https://juno.vn/cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </header>
+        </div>
+        <div class="wp-content">
+
+            <section class="homepage-banner shirt">
+                <div class="slideshow-container">
+                    <div class="slide-banner-homepage fade">
+                        <a href="">
+                            <img src="public/image/banner-ao.png">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="wp-sale d-flex">
+                <ul class="list-sale">
+                    <li class="item-sale">
+                        <a href="">Sale 99k</a>
+                    </li>
+                    <li class="item-sale">
+                        <a href="">Sale Từ 149k</a>
+                    </li>
+                    <li class="item-sale">
+                        <a href="">Sale Từ 249k</a>
+                    </li>
+                    <li class="item-sale">
+                        <a href="">Sale Từ 349k</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="wp-category d-flex">
+                <ul class="list-category">
+                    <li class="cat-item">
+                        <a href="">Áo</a>
+                    </li>
+                    <li class="cat-item">
+                        <a href="">Đầm & Quần & Váy</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="collection-shirt d-flex">
+                <div class="title-collection-shirt">
+                    <h2>
+                        <span>SALE 99K: </span>
+                        Các sản phẩm quần áo Sale 99k</h2>
+                </div>
+
+                <div class="wp-list-product-collection d-flex">
+
+                    <ul class="list-product-collection d-flex">
+
+                        <li class="product-coll-item d-flex">
+                            <a href="">
+                                <img src="public/image/demo-ao-1.png" alt="" class="product-coll-thumb">
+                            </a>
+                            <ul class="types-coll-product">
+                                <li>
+                                    <img src="public/image/type-1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="public/image/type-2.png" alt="">
+                                </li>
+                            </ul>
+                            <div class="product-coll-name">
+                                Túi Xách Nhỏ Đeo Vai Lock & Key
+                            </div>
+                            <div class="price-coll">
+                                <span class="new-price">69,000₫</span>
+                                <span class="old-price">289,000₫</span>
+                            </div>
+                            <div class="percent-discount">-76%</div>
+                        </li>
+                        <li class="product-coll-item d-flex">
+                            <a href="">
+                                <img src="public/image/demo-ao-2.png" alt="" class="product-coll-thumb">
+                            </a>
+                            <ul class="types-coll-product">
+                                <li>
+                                    <img src="public/image/type-1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="public/image/type-2.png" alt="">
+                                </li>
+                            </ul>
+                            <div class="product-coll-name">
+                                Túi Xách Nhỏ Đeo Vai Lock & Key
+                            </div>
+                            <div class="price-coll">
+                                <span class="new-price">69,000₫</span>
+                                <span class="old-price">289,000₫</span>
+                            </div>
+                            <div class="percent-discount">-76%</div>
+                        </li>
+                        <li class="product-coll-item d-flex">
+                            <a href="">
+                                <img src="public/image/demo-ao-3.png" alt="" class="product-coll-thumb">
+                            </a>
+                            <ul class="types-coll-product">
+                                <li>
+                                    <img src="public/image/type-1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="public/image/type-2.png" alt="">
+                                </li>
+                            </ul>
+                            <div class="product-coll-name">
+                                Túi Xách Nhỏ Đeo Vai Lock & Key
+                            </div>
+                            <div class="price-coll">
+                                <span class="new-price">69,000₫</span>
+                                <span class="old-price">289,000₫</span>
+                            </div>
+                            <div class="percent-discount">-76%</div>
+                        </li>
+                        <li class="product-coll-item d-flex">
+                            <a href="">
+                                <img src="public/image/demo-ao-4.png" alt="" class="product-coll-thumb">
+                            </a>
+                            <ul class="types-coll-product">
+                                <li>
+                                    <img src="public/image/type-1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="public/image/type-2.png" alt="">
+                                </li>
+                            </ul>
+                            <div class="product-coll-name">
+                                Túi Xách Nhỏ Đeo Vai Lock & Key
+                            </div>
+                            <div class="price-coll">
+                                <span class="new-price">69,000₫</span>
+                                <span class="old-price">289,000₫</span>
+                            </div>
+                            <div class="percent-discount">-76%</div>
+                        </li>
+                        <li class="product-coll-item d-flex">
+                            <a href="">
+                                <img src="public/image/demo-ao-5.png" alt="" class="product-coll-thumb">
+                            </a>
+                            <ul class="types-coll-product">
+                                <li>
+                                    <img src="public/image/type-1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="public/image/type-2.png" alt="">
+                                </li>
+                            </ul>
+                            <div class="product-coll-name">
+                                Túi Xách Nhỏ Đeo Vai Lock & Key
+                            </div>
+                            <div class="price-coll">
+                                <span class="new-price">69,000₫</span>
+                                <span class="old-price">289,000₫</span>
+                            </div>
+                            <div class="percent-discount">-76%</div>
+                        </li>
+                        <li class="product-coll-item d-flex">
+                            <a href="">
+                                <img src="public/image/demo-ao-6.png" alt="" class="product-coll-thumb">
+                            </a>
+                            <ul class="types-coll-product">
+                                <li>
+                                    <img src="public/image/type-1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="public/image/type-2.png" alt="">
+                                </li>
+                            </ul>
+                            <div class="product-coll-name">
+                                Túi Xách Nhỏ Đeo Vai Lock & Key
+                            </div>
+                            <div class="price-coll">
+                                <span class="new-price">69,000₫</span>
+                                <span class="old-price">289,000₫</span>
+                            </div>
+                            <div class="percent-discount">-76%</div>
+                        </li>
+                        <li class="product-coll-item d-flex">
+                            <a href="">
+                                <img src="public/image/demo-ao-7.png" alt="" class="product-coll-thumb">
+                            </a>
+                            <ul class="types-coll-product">
+                                <li>
+                                    <img src="public/image/type-1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="public/image/type-2.png" alt="">
+                                </li>
+                            </ul>
+                            <div class="product-coll-name">
+                                Túi Xách Nhỏ Đeo Vai Lock & Key
+                            </div>
+                            <div class="price-coll">
+                                <span class="new-price">69,000₫</span>
+                                <span class="old-price">289,000₫</span>
+                            </div>
+                            <div class="percent-discount">-76%</div>
+                        </li>
+                        <li class="product-coll-item d-flex">
+                            <a href="">
+                                <img src="public/image/demo-ao-2.png" alt="" class="product-coll-thumb">
+                            </a>
+                            <ul class="types-coll-product">
+                                <li>
+                                    <img src="public/image/type-1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="public/image/type-2.png" alt="">
+                                </li>
+                            </ul>
+                            <div class="product-coll-name">
+                                Túi Xách Nhỏ Đeo Vai Lock & Key
+                            </div>
+                            <div class="price-coll">
+                                <span class="new-price">69,000₫</span>
+                                <span class="old-price">289,000₫</span>
+                            </div>
+                            <div class="percent-discount">-76%</div>
+                        </li>
+                        <li class="product-coll-item d-flex">
+                            <a href="">
+                                <img src="public/image/demo-ao-3.png" alt="" class="product-coll-thumb">
+                            </a>
+                            <ul class="types-coll-product">
+                                <li>
+                                    <img src="public/image/type-1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="public/image/type-2.png" alt="">
+                                </li>
+                            </ul>
+                            <div class="product-coll-name">
+                                Túi Xách Nhỏ Đeo Vai Lock & Key
+                            </div>
+                            <div class="price-coll">
+                                <span class="new-price">69,000₫</span>
+                                <span class="old-price">289,000₫</span>
+                            </div>
+                            <div class="percent-discount">-76%</div>
+                        </li>
+                        <li class="product-coll-item d-flex">
+                            <a href="">
+                                <img src="public/image/demo-ao-4.png" alt="" class="product-coll-thumb">
+                            </a>
+                            <ul class="types-coll-product">
+                                <li>
+                                    <img src="public/image/type-1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="public/image/type-2.png" alt="">
+                                </li>
+                            </ul>
+                            <div class="product-coll-name">
+                                Túi Xách Nhỏ Đeo Vai Lock & Key
+                            </div>
+                            <div class="price-coll">
+                                <span class="new-price">69,000₫</span>
+                                <span class="old-price">289,000₫</span>
+                            </div>
+                            <div class="percent-discount">-76%</div>
+                        </li>
+                        <li class="product-coll-item d-flex">
+                            <a href="">
+                                <img src="public/image/demo-ao-5.png" alt="" class="product-coll-thumb">
+                            </a>
+                            <ul class="types-coll-product">
+                                <li>
+                                    <img src="public/image/type-1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="public/image/type-2.png" alt="">
+                                </li>
+                            </ul>
+                            <div class="product-coll-name">
+                                Túi Xách Nhỏ Đeo Vai Lock & Key
+                            </div>
+                            <div class="price-coll">
+                                <span class="new-price">69,000₫</span>
+                                <span class="old-price">289,000₫</span>
+                            </div>
+                            <div class="percent-discount">-76%</div>
+                        </li>
+                        <li class="product-coll-item d-flex">
+                            <a href="">
+                                <img src="public/image/demo-ao-6.png" alt="" class="product-coll-thumb">
+                            </a>
+                            <ul class="types-coll-product">
+                                <li>
+                                    <img src="public/image/type-1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="public/image/type-2.png" alt="">
+                                </li>
+                            </ul>
+                            <div class="product-coll-name">
+                                Túi Xách Nhỏ Đeo Vai Lock & Key
+                            </div>
+                            <div class="price-coll">
+                                <span class="new-price">69,000₫</span>
+                                <span class="old-price">289,000₫</span>
+                            </div>
+                            <div class="percent-discount">-76%</div>
+                        </li>
+                        <li class="product-coll-item d-flex">
+                            <a href="">
+                                <img src="public/image/demo-ao-8.png" alt="" class="product-coll-thumb">
+                            </a>
+                            <ul class="types-coll-product">
+                                <li>
+                                    <img src="public/image/type-1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="public/image/type-2.png" alt="">
+                                </li>
+                            </ul>
+                            <div class="product-coll-name">
+                                Túi Xách Nhỏ Đeo Vai Lock & Key
+                            </div>
+                            <div class="price-coll">
+                                <span class="new-price">69,000₫</span>
+                                <span class="old-price">289,000₫</span>
+                            </div>
+                            <div class="percent-discount">-76%</div>
+                        </li>
+                        <li class="product-coll-item d-flex">
+                            <a href="">
+                                <img src="public/image/demo-ao-2.png" alt="" class="product-coll-thumb">
+                            </a>
+                            <ul class="types-coll-product">
+                                <li>
+                                    <img src="public/image/type-1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="public/image/type-2.png" alt="">
+                                </li>
+                            </ul>
+                            <div class="product-coll-name">
+                                Túi Xách Nhỏ Đeo Vai Lock & Key
+                            </div>
+                            <div class="price-coll">
+                                <span class="new-price">69,000₫</span>
+                                <span class="old-price">289,000₫</span>
+                            </div>
+                            <div class="percent-discount">-76%</div>
+                        </li>
+                        <li class="product-coll-item d-flex">
+                            <a href="">
+                                <img src="public/image/demo-ao-3.png" alt="" class="product-coll-thumb">
+                            </a>
+                            <ul class="types-coll-product">
+                                <li>
+                                    <img src="public/image/type-1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="public/image/type-2.png" alt="">
+                                </li>
+                            </ul>
+                            <div class="product-coll-name">
+                                Túi Xách Nhỏ Đeo Vai Lock & Key
+                            </div>
+                            <div class="price-coll">
+                                <span class="new-price">69,000₫</span>
+                                <span class="old-price">289,000₫</span>
+                            </div>
+                            <div class="percent-discount">-76%</div>
+                        </li>
+                        <li class="product-coll-item d-flex">
+                            <a href="">
+                                <img src="public/image/demo-ao-4.png" alt="" class="product-coll-thumb">
+                            </a>
+                            <ul class="types-coll-product">
+                                <li>
+                                    <img src="public/image/type-1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="public/image/type-2.png" alt="">
+                                </li>
+                            </ul>
+                            <div class="product-coll-name">
+                                Túi Xách Nhỏ Đeo Vai Lock & Key
+                            </div>
+                            <div class="price-coll">
+                                <span class="new-price">69,000₫</span>
+                                <span class="old-price">289,000₫</span>
+                            </div>
+                            <div class="percent-discount">-76%</div>
+                        </li>
+                        <li class="product-coll-item d-flex">
+                            <a href="">
+                                <img src="public/image/demo-ao-5.png" alt="" class="product-coll-thumb">
+                            </a>
+                            <ul class="types-coll-product">
+                                <li>
+                                    <img src="public/image/type-1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="public/image/type-2.png" alt="">
+                                </li>
+                            </ul>
+                            <div class="product-coll-name">
+                                Túi Xách Nhỏ Đeo Vai Lock & Key
+                            </div>
+                            <div class="price-coll">
+                                <span class="new-price">69,000₫</span>
+                                <span class="old-price">289,000₫</span>
+                            </div>
+                            <div class="percent-discount">-76%</div>
+                        </li>
+                        <li class="product-coll-item d-flex">
+                            <a href="">
+                                <img src="public/image/demo-ao-6.png" alt="" class="product-coll-thumb">
+                            </a>
+                            <ul class="types-coll-product">
+                                <li>
+                                    <img src="public/image/type-1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="public/image/type-2.png" alt="">
+                                </li>
+                            </ul>
+                            <div class="product-coll-name">
+                                Túi Xách Nhỏ Đeo Vai Lock & Key
+                            </div>
+                            <div class="price-coll">
+                                <span class="new-price">69,000₫</span>
+                                <span class="old-price">289,000₫</span>
+                            </div>
+                            <div class="percent-discount">-76%</div>
+                        </li>
+                    </ul>
+                </div>
+                
+            </section>
+
+        </div>
+
+        <div id="wp-footer">
+            <footer>
+                <div class="head">
+                    
+                </div>
+                <div class="head-footer d-flex">
+                    <div class="contact">
+                        <ul>
+                            <li>
+                                <h3>GỌI MUA HÀNG ONLINE (08:00 - 21: 00 mỗi ngày)</h3>
+                                <h1>1800 1162</h1>
+                                <p>Tất cả các ngày trong tuần (Trừ tết Âm Lịch)</p>
+                            </li>
+                            <li>
+                                <h3>GÓP Ý & KHIẾU NẠI (08:30 - 20:30)</h3>
+                                <h1>1800 1160</h1>
+                                <p>Tất cả các ngày trong tuần (Trừ tết Âm Lịch)</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="system">
+                        <h2>HỆ THỐNG SHOWROOM</h2>
+                        <a href=""><img src="public/image/he-thong-showroom.png" alt=""></a>
+                        <a href="https://juno.vn/blogs/he-thong-cua-hang" target="_blank">Xem địa chỉ hệ thống 66 showroom</a>
+                    </div>
+                    <div class="fanpage">
+                        <h2>FANPAGE CỦA CHÚNG TÔI</h2>
+                        <a href=""><img src="public/image/fanpage-cua-chung-toi.png" alt=""></a>
+                        <ul class="wp-social-media d-flex">
+                            <li class="social-media-item"><a href = "https://www.facebook.com/giayjuno" target="_blank">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a></li>
+                            <li class="social-media-item"><a href="https://www.instagram.com/juno.vn/" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a></li>
+                            <li class="social-media-item"><a href="https://www.youtube.com/user/JunoShoesVn" target="_blank">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a></li>
+                            <li class="social-media-item"><a href="https://www.tiktok.com/@junoofficial" target="_blank">
+                                    <i class="fa-brands fa-tiktok"></i>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="wp-body-footer">
+                    <div class="body-footer container d-flex">
+                        <div class="support">
+                            <h2>HỖ TRỢ KHÁCH HÀNG</h2>
+                            <ul class="d-flex">
+                                <li><a href="">
+                                        Hướng dẫn chọn cỡ giày</a></li>
+                                <li><a href="">Chính sách đổi trả</a></li>
+                                <li><a href="">Thanh toán giao nhận</a></li>
+                                <li><a href=""> Chính sách bảo mật</a></li>
+                                <li><a href="">Câu hỏi thường gặp</a></li>
+                                <li><a href="">Chính sách khách hàng thân thiết</a></li>
+                                <li><a href="">Hướng dẫn mua hàng Online</a></li>
+                            </ul>
+                        </div>
+                        <div class="about">
+                            <h2>VỀ JUNO</h2>
+                            <ul class="d-flex">
+                                <li><a href="">Giới thiệu</a></li>
+                                <li><a href="">Liên hệ</a></li>
+                                <li><a href="">Tin tức Juno</a></li>
+                                <li><a href="">Thông tin thời trang</a></li>
+                                <li><a href="">Cơ hội làm việc tại Juno</a></li>
+                            </ul>
+                        </div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="wp-copyright d-flex">
+                    <div class="copyright">
+                        <i class="fa-regular fa-copyright"></i>
+                        Công ty Cổ phần Seedcom Fashion Group
+                    </div>
+                    <div class="certification">
+                        <a href=""><img src="public/image/chung-chi.png" alt=""></a>
+                        Powered by Haravan Enterprise.
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div id="btn-top">
+            <div>Về đầu trang</div>
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+        <script>
+            //  SCROLL TOP
+            $(window).scroll(function () {
+                if ($(this).scrollTop() != 0) {
+                    $('#btn-top').stop().fadeIn(150);
+                } else {
+                    $('#btn-top').stop().fadeOut(150);
+                }
+            });
+            $('#btn-top').click(function () {
+                $('body,html').stop().animate({ scrollTop: 0 }, 800);
+            });
+        </script>
+    </div>
+
+    <script src="./public/js/app.js"></script>
+</body>
+
+</html>

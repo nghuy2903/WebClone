@@ -1,0 +1,127 @@
+
+.head {
+    width: 100%;
+    background-color: #f0f0f0;
+    height: 40px;
+    margin-top: 20px;
+
+}
+.head-footer{
+    padding: 20px 100px;
+    justify-content: space-around;
+}
+
+.contact{
+    flex-basis: 30%;
+}
+.contact ul li:last-child{
+    margin-top: 30px;
+}
+.contact h3, .system h2, .fanpage h2{
+    color: rgb(37, 42, 43);
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+.contact h1{
+    color: rgb(37, 42, 43);
+    font-size: 24px;
+    letter-spacing: 1.2px;
+}
+.contact p{
+    color: rgb(37, 42, 43);
+    margin: 10px 0px;
+    font-size: 13px;
+    font-weight: 300;
+}
+.system{
+    flex-basis: 30%;
+}
+.system a img, .fanpage a img{
+    width: 403px;
+    height: 190px;
+}
+.system a:last-child{
+    color: rgb(121, 120, 120);
+    margin-top: 10px;
+    display: block;
+    text-decoration: underline;
+}
+
+.fanpage{
+    flex-basis: 30%;
+}
+
+.wp-social-media{
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.social-media-item a{
+    color: #000;
+    font-size: 20px;
+}
+
+.wp-body-footer{
+    background: rgb(241, 241, 241);
+}
+.body-footer{
+    padding: 15px 120px;
+    justify-content: start;
+}
+.body-footer ul{
+    flex-wrap: wrap;
+}
+.body-footer h2{
+    color: rgb(37, 42, 43);
+    font-size: 13px;
+    font-weight: 500;
+    padding: 20px 0px;
+}
+.body-footer ul li{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
+.body-footer ul li a{
+    color: rgb(37, 42, 43);
+    font-size: 13px;
+}
+
+.body-footer ul li a:hover {
+    text-decoration: underline;
+}
+.support{
+    flex-basis: 34%;
+}
+.about{
+    flex-basis: 30%;
+}
+.wp-copyright{
+    padding: 10px 120px;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(37, 42, 43);
+    font-size: 13px;
+}
+.copyright{
+    flex-basis: 80%;
+}
+
+.certification{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+}
+
+#btn-top {
+    position: fixed;
+    bottom: 80px;
+    right: -35px;
+    cursor: pointer;
+    transform: rotate(-91deg);
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,112 @@
+
+#wp-header {
+    position: fixed;
+    z-index: 100;
+    background-color: #fff;
+    width: 100%;
+}
+header {
+    padding: 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-header{
+    flex-basis: 10%;
+}
+.logo-header a img{
+    width: 93px;
+    height: 16px;
+}
+
+menu {
+    flex-basis: 57%
+}
+
+.menu{
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-item{
+    color: #333;
+    padding: 14px 0px;
+}
+.menu-item:nth-child(3) .menu-link, .menu-item:nth-child(4) .menu-link{
+    color: #F40000;
+    font-weight: bold;
+}
+
+.menu-link{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.wp-sub-menu{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: none;
+}
+.menu-item:nth-child(2):hover .wp-sub-menu{
+    display: flex;
+}
+.sub-menu{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.sub-menu ul{
+    margin-right: 90px;
+}
+.sub-menu ul li{
+    padding: 15px 0px;
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+.sub-menu ul li:hover {
+    text-decoration: underline;
+}
+
+.footer-sub-menu{
+    color: rgb(37, 42, 43);
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.wp-form-search{
+    flex-basis: 8%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.wp-form-search input{
+    width: 80px;
+    height: 45px;
+    border: none;
+}
+.wp-form-search i{
+    color: #5d5c5c;
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+}
+
+.wp-tools{
+    cursor: pointer;
+    color: #000;
+    flex-basis: 6%;
+    display: flex;
+    gap: 11px;
+}
+.wp-tools a i{
+    color: #000;
+}
